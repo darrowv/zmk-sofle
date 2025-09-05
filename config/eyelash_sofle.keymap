@@ -57,7 +57,7 @@
 &kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T            &kp DOWN_ARROW   &kp Y      &kp U      &kp I          &kp O            &kp P       &kp BSLH
 &kp LCTRL   &kp A      &kp S         &kp D         &kp F   &kp G            &kp LEFT_ARROW   &kp H      &kp J      &kp K          &kp L            &kp SEMI    &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B            &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA      &kp DOT          &kp FSLH    &kp RIGHT_SHIFT
-&kp C_MUTE  &kp ESC    &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp BACKSPACE    &kp ENTER        &kp ENTER  &kp SPACE  &kp BACKSPACE  &mo 2            &kp DELETE
+&kp C_MUTE  &kp ESC    &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp BACKSPACE    &kp ENTER        &kp ENTER  &kp SPACE  &kp LCTRL      &mo 2            &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -67,8 +67,8 @@
         layer_1 {
             bindings = <
 &kp F1      &kp F2           &kp F3          &kp F4           &kp F5           &kp F6             &mmv MOVE_UP     &kp F7           &kp F8           &kp F9      &kp F10    &kp F11           &kp F12
-&kp GRAVE   &trans           &trans          &trans           &trans           &trans             &mmv MOVE_DOWN   &kp LBRC         &kp RBRC         &trans      &trans     &kp LBKT          &kp RBKT
-&kp CAPS    &trans           &trans          &trans           &trans           &trans             &mmv MOVE_LEFT   &kp EQUAL        &kp UNDER        &trans      &trans     &kp MINUS         &kp PLUS
+&kp GRAVE   &trans           &trans          &trans           &trans           &kp PAGE_UP        &mmv MOVE_DOWN   &kp LBRC         &kp RBRC         &trans      &trans     &kp LBKT          &kp RBKT
+&kp CAPS    &trans           &trans          &trans           &trans           &kp PAGE_DOWN      &mmv MOVE_LEFT   &kp EQUAL        &kp UNDER        &trans      &trans     &kp MINUS         &kp PLUS
 &trans      &trans           &trans          &trans           &trans           &trans             &mmv MOVE_RIGHT  &trans           &trans           &trans      &trans     &kp LPAR          &kp RPAR
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
